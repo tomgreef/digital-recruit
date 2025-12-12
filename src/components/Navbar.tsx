@@ -1,7 +1,8 @@
 import { Box, Button, Container, Drawer, Grid, IconButton, ImageList, ImageListItem, List, ListItem, ListItemText, useMediaQuery, useTheme } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { navigate } from "gatsby";
-import { TFunction, useTranslation } from "gatsby-plugin-react-i18next";
+import { useTranslation } from "gatsby-plugin-react-i18next";
+import { TFunction } from "i18next";
 import React, { FC, useState } from "react";
 import { StyledNavbarLink, theme } from "../theme";
 import { Route } from "./Footer";
